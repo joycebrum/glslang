@@ -241,7 +241,7 @@ jobs:
               uses: hendrikmuhs/ccache-action@ca3acd2731eef11f1572ccb126356c2f9298d35e # v1.2.9
               with:
                   key: ubuntu-emscripten
-            - uses: mymindstorm/setup-emsdk@29ba4851d6da084ffdc1e0fc390efadbd75df9d1 # v11
+            - uses: mymindstorm/setup-emsdk@ab889da2abbcbb280f91ec4c215d3bb4f3a8f775 # v12
             - name: Update Glslang Sources
               run: ./update_glslang_sources.py
             - name: Configure
